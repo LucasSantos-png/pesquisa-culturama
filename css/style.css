@@ -111,3 +111,14 @@ button[type="reset"]:hover {
     background-color: red;
     color: white;
 }
+
+#h1Success {
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#pSuccess {
+    text-align: center;
+    margin-top: 10px;
+}
