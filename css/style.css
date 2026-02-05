@@ -67,8 +67,14 @@ input, select, textarea {
     border-radius: 5px;
 }
 
-textarea {
-    min-height: 100px;
+input[type="tel"],
+input[type="file"] {
+    margin-bottom: 0;
+}
+
+small {
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 input[type="radio"],
@@ -79,6 +85,10 @@ input[type="checkbox"] {
 input[type="color"] {
     width: 40px;
     padding: 0 5px;
+}
+
+textarea {
+    min-height: 100px;
 }
 
 input:invalid, 
